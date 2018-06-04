@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bt_1n3_04.the_unforgotten.Interlude">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="663dp"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/war" />
+
+    <LinearLayout
+        android:layout_width="595dp"
+        android:layout_height="310dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32sp"
+                    android:textColor="#FFF"
+                    android:text="The Syrian conflict has created the worst humanitarian crisis of our time. Half the country’s pre-war population — more than 11 million people — have been killed or forced to flee their homes. Families are struggling to survive inside Syria, or make a new home in neighboring countries. Others are risking their lives on the way to Europe, hoping to find acceptance and opportunity. And harsh winters and hot summers make life as a refugee even more difficult. At times, the effects of the conflict can seem overwhelming. But one fact is simple: millions of Syrians need our help. According to the U.N., $4.6 billion was required to meet the urgent needs of the most vulnerable Syrians in 2017 — but only a little more than half was received. " />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
